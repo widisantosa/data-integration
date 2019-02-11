@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "IntegrationService",
+    "packageName": "data.integration.service",
+    "packageFolder": "data/integration/service",
+    "serverPort": 8075,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "NTJiMGQzYWM3MTk5MmM5YmQwYTA4NzU4NjljODhlNzBkYmUxNzhjODFjMDY4YWQ0NGZhNWM1OTZlYzI3MGNjNDczYWRlYWE2Yjg1Yjc3ZDk2NDM5YWI4ZGI3MjlhMjRiYmYzN2E4ZDA3YzkyYjM2MjU5ZTBlM2ZmOWQzNTk0NDU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "widisantosa",
+  "repository-name": "data-integration"
+}
